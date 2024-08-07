@@ -1,0 +1,877 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./css/global.css" />
+    <link rel="stylesheet" href="./css/phu-kien.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;0,800;1,400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap"
+    />
+  </head>
+  <body>
+    <div class="sn-phm-ph-kin-1">
+      <div class="diachi1">
+        <img class="diachi-inner" alt="" />
+
+        <img class="line-icon" alt="" />
+
+        <b class="trang-ch7">TRANG CHỦ / SẢN PHẨM / PHỤ KIỆN</b>
+      </div>
+      <div class="header6">
+        <img class="header-child4" alt="" src="./public/rectangle-1@2x.png" />
+
+        <div class="tm-kim6">
+          <div class="thanh-tm-kim6"></div>
+          <img class="vector-icon54" alt="" src="./public/vector.svg" />
+        </div>
+        <div class="thng-tin-ti-khon18">
+          <div class="lin-h12">
+            <div class="thng-tin-ti-khon20"></div>
+          </div>
+        </div>
+        <div class="menu6">
+          <div class="menu-child4"></div>
+          <div class="component-16">
+            <div class="san-phm-bn-chy6" id="sanPhmBnChy">
+              <div class="san-phm-bn-chy-child4"></div>
+              <b class="sn-phm57">SẢN PHẨM BÁN CHẠY</b>
+              <img class="vector-icon55" alt="" src="./public/vector2.svg" />
+            </div>
+            <div class="sn-phm-ni-bt6" id="snPhmNiBt">
+              <div class="san-phm-bn-chy-child4"></div>
+              <b class="sn-phm58">SẢN PHẨM NỔI BẬT</b>
+              <img class="vector-icon55" alt="" src="./public/vector2.svg" />
+            </div>
+            <div class="dropdown">
+              <button onclick="myFunction()" class="dropbtn">Sản phẩm</button>
+              <div id="myDropdown" class="dropdown-content">
+                <a href="./SachTiengViet.html">Sách tiếng việt</a>
+                <a href="./SachTiengAnh.html">English Book</a>
+                <a href="./PhuKien.html">Phụ Kiện</a>
+                <a href="./DoChoi.html">Đồ Chơi</a>
+              </div>
+            </div>
+            <div class="trang-ch8" id="trangChuBtn">
+              <div class="san-phm-bn-chy-child4"></div>
+              <b class="sn-phm60">TRANG CHỦ</b>
+              <img class="vector-icon55" alt="" src="./public/vector2.svg" />
+            </div>
+            <div class="lin-h13">
+              <div class="san-phm-bn-chy-child4"></div>
+              <b class="sn-phm62">LIÊN HỆ</b>
+              <img class="vector-icon55" alt="" src="./public/vector2.svg" />
+            </div>
+          </div>
+        </div>
+        <div class="component-3-wrapper4">
+          <div class="component-36">
+            <img
+              class="component-3-child4"
+              alt=""
+              src="./public/rectangle-40.svg"
+            />
+
+            <div class="ti-khon6">
+              <b class="ti-khon-ca6">Đăng nhập</b>
+              <img class="vector-icon60" alt="" src="./public/vector7.svg" />
+            </div>
+          </div>
+        </div>
+        <div class="gi-hng-wrapper4">
+          <div class="gi-hng13">
+            <b class="gi-hng14">Giỏ hàng</b>
+            <img class="vector-icon61" alt="" src="./public/vector4.svg" />
+
+            <b class="b20">0</b>
+          </div>
+        </div>
+        <div class="nh-sch-dvv6">Nhà sách DVV</div>
+      </div>
+      <div class="category7">
+        <div class="category-item5">
+          <div class="category-parent3">
+            <b class="category8">
+              <p class="category9">Category</p>
+            </b>
+            <img
+              class="keyboard-arrow-down-icon1"
+              alt=""
+              src="./public/keyboard-arrow-down.svg"
+            />
+          </div>
+          <div class="check-box-parent3">
+            <div class="check-box20">
+              <img
+                class="check-box-outline-blank-icon20"
+                alt=""
+                src="./public/check-box-outline-blank.svg"
+              />
+
+              <b class="label20">Văn học</b>
+            </div>
+            <div class="check-box20">
+              <img
+                class="check-box-outline-blank-icon20"
+                alt=""
+                src="./public/check-box-outline-blank.svg"
+              />
+
+              <b class="label20">Kinh tế / Kinh doanh</b>
+            </div>
+            <div class="check-box20">
+              <img
+                class="check-box-outline-blank-icon20"
+                alt=""
+                src="./public/check-box-outline-blank.svg"
+              />
+
+              <b class="label20">Thiếu nhi</b>
+            </div>
+            <div class="check-box20">
+              <img
+                class="check-box-outline-blank-icon20"
+                alt=""
+                src="./public/check-box-outline-blank.svg"
+              />
+
+              <b class="label20">Truyện / Manga</b>
+            </div>
+          </div>
+        </div>
+        <div class="category-item6">
+          <div class="category-parent4">
+            <b class="category10">Phụ kiện</b>
+            <img
+              class="keyboard-arrow-up-icon4"
+              alt=""
+              src="./public/keyboard-arrow-up.svg"
+            />
+          </div>
+          <div class="check-box-parent4">
+            <div class="check-box24" id="checkBoxContainer">
+              <img
+                class="check-box-outline-blank-icon20"
+                alt=""
+                src="./public/check-box-outline-blank.svg"
+              />
+
+              <b class="label20">Bút - Viết</b>
+            </div>
+            <div class="check-box24" id="checkBoxContainer1">
+              <img
+                class="check-box-outline-blank-icon20"
+                alt=""
+                src="./public/check-box-outline-blank.svg"
+              />
+
+              <b class="label20">Dụng cụ Vẽ</b>
+            </div>
+            <div class="check-box24" id="checkBoxContainer2">
+              <img
+                class="check-box-outline-blank-icon20"
+                alt=""
+                src="./public/check-box-outline-blank.svg"
+              />
+
+              <b class="label20">Dụng cụ Văn Phòng</b>
+            </div>
+            <div class="check-box24" id="checkBoxContainer3">
+              <img
+                class="check-box-outline-blank-icon20"
+                alt=""
+                src="./public/check-box-outline-blank.svg"
+              />
+
+              <b class="label20">Thiệp</b>
+            </div>
+          </div>
+        </div>
+        <div class="category-item6">
+          <div class="category-parent4">
+            <b class="category10">Giá</b>
+            <img
+              class="keyboard-arrow-up-icon4"
+              alt=""
+              src="./public/keyboard-arrow-up.svg"
+            />
+          </div>
+          <div class="check-box-parent4">
+            <div class="check-box20">
+              <img
+                class="check-box-outline-blank-icon20"
+                alt=""
+                src="./public/check-box-outline-blank.svg"
+              />
+
+              <b class="label20">0đ - 300,000đ</b>
+            </div>
+            <div class="check-box20">
+              <img
+                class="check-box-outline-blank-icon20"
+                alt=""
+                src="./public/check-box-outline-blank.svg"
+              />
+
+              <b class="label20">300,000đ - 700,000đ</b>
+            </div>
+            <div class="check-box20">
+              <img
+                class="check-box-outline-blank-icon20"
+                alt=""
+                src="./public/check-box-outline-blank.svg"
+              />
+
+              <b class="label20">700,000đ - 1,000,000đ</b>
+            </div>
+            <div class="check-box20">
+              <img
+                class="check-box-outline-blank-icon20"
+                alt=""
+                src="./public/check-box-outline-blank.svg"
+              />
+
+              <b class="label20">Trên 1,000,000đ</b>
+            </div>
+          </div>
+        </div>
+        <div class="category-item6">
+          <div class="category-parent4">
+            <b class="category10">Nhà cung cấp</b>
+            <img
+              class="keyboard-arrow-up-icon4"
+              alt=""
+              src="./public/keyboard-arrow-up.svg"
+            />
+          </div>
+          <div class="check-box-parent4">
+            <div class="check-box20">
+              <img
+                class="check-box-outline-blank-icon20"
+                alt=""
+                src="./public/check-box-outline-blank.svg"
+              />
+
+              <b class="label20">Thiên Long Hoàn Cầu</b>
+            </div>
+            <div class="check-box20">
+              <img
+                class="check-box-outline-blank-icon20"
+                alt=""
+                src="./public/check-box-outline-blank.svg"
+              />
+
+              <b class="label20">Cty Fabico</b>
+            </div>
+            <div class="check-box20">
+              <img
+                class="check-box-outline-blank-icon20"
+                alt=""
+                src="./public/check-box-outline-blank.svg"
+              />
+
+              <b class="label20">Fahasa Print</b>
+            </div>
+            <div class="check-box20">
+              <img
+                class="check-box-outline-blank-icon20"
+                alt=""
+                src="./public/check-box-outline-blank.svg"
+              />
+
+              <b class="label20">KOKUYO</b>
+            </div>
+          </div>
+        </div>
+        <div class="category-item6">
+          <div class="category-parent4">
+            <b class="category10">Nơi sản xuất</b>
+            <img
+              class="keyboard-arrow-up-icon4"
+              alt=""
+              src="./public/keyboard-arrow-up.svg"
+            />
+          </div>
+          <div class="check-box-parent4">
+            <div class="check-box20">
+              <img
+                class="check-box-outline-blank-icon20"
+                alt=""
+                src="./public/check-box-outline-blank.svg"
+              />
+
+              <b class="label20">Việt Nam</b>
+            </div>
+            <div class="check-box20">
+              <img
+                class="check-box-outline-blank-icon20"
+                alt=""
+                src="./public/check-box-outline-blank.svg"
+              />
+
+              <b class="label20">Trung Quốc</b>
+            </div>
+            <div class="check-box20">
+              <img
+                class="check-box-outline-blank-icon20"
+                alt=""
+                src="./public/check-box-outline-blank.svg"
+              />
+
+              <b class="label20">Nhật Bản</b>
+            </div>
+            <div class="check-box20">
+              <img
+                class="check-box-outline-blank-icon20"
+                alt=""
+                src="./public/check-box-outline-blank.svg"
+              />
+
+              <b class="label20">Malaysia</b>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="chuyn-trang1">
+        <div class="button-next-and-after2">
+          <div class="trc2">Trước</div>
+        </div>
+        <div class="number-page3">
+          <div class="div56">1</div>
+        </div>
+        <div class="number-page4" id="numberPageContainer1">
+          <div class="div56">2</div>
+        </div>
+        <div class="number-page4" id="numberPageContainer2">
+          <div class="div56">3</div>
+        </div>
+        <div class="button-next-and-after2">
+          <div class="trc2">Sau</div>
+        </div>
+      </div>
+      <div class="san-pham1">
+        <div class="sn-phm-parent2">
+          <div class="sn-phm63" id="snPhm">
+            <img
+              class="sn-phm-child26"
+              alt=""
+              src="./public/rectangle-4917@2x.png"
+            />
+
+            <div class="c-nh-xng21">Viết - Bút bi</div>
+            <div class="parent22">
+              <div class="div59">35.000</div>
+              <div class="div60">đ</div>
+            </div>
+            <div class="button-add-to-cart-parent19">
+              <div class="button-add-to-cart22">
+                <b class="div59">Mua ngay</b>
+              </div>
+              <div class="shopping-cart22">
+                <img
+                  class="shopping-cart-icon22"
+                  alt=""
+                  src="./public/shopping-cart.svg"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="sn-phm63" id="snPhm1">
+            <img
+              class="sn-phm-child26"
+              alt=""
+              src="./public/rectangle-4918@2x.png"
+            />
+
+            <div class="c-nh-xng21">Viết - Bút bi</div>
+            <div class="parent22">
+              <div class="div59">35.000</div>
+              <div class="div60">đ</div>
+            </div>
+            <div class="button-add-to-cart-parent19">
+              <div class="button-add-to-cart22">
+                <b class="div59">Mua ngay</b>
+              </div>
+              <div class="shopping-cart22">
+                <img
+                  class="shopping-cart-icon22"
+                  alt=""
+                  src="./public/shopping-cart.svg"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="sn-phm63" id="snPhm2">
+            <img
+              class="sn-phm-child26"
+              alt=""
+              src="./public/rectangle-4919@2x.png"
+            />
+
+            <div class="c-nh-xng21">Viết - Bút bi</div>
+            <div class="parent22">
+              <div class="div59">35.000</div>
+              <div class="div60">đ</div>
+            </div>
+            <div class="button-add-to-cart-parent19">
+              <div class="button-add-to-cart22">
+                <b class="div59">Mua ngay</b>
+              </div>
+              <div class="shopping-cart22">
+                <img
+                  class="shopping-cart-icon22"
+                  alt=""
+                  src="./public/shopping-cart.svg"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="sn-phm63" id="snPhm3">
+            <img
+              class="sn-phm-child26"
+              alt=""
+              src="./public/rectangle-4920@2x.png"
+            />
+
+            <div class="c-nh-xng21">Viết - Bút bi</div>
+            <div class="parent22">
+              <div class="div59">35.000</div>
+              <div class="div60">đ</div>
+            </div>
+            <div class="button-add-to-cart-parent19">
+              <div class="button-add-to-cart22">
+                <b class="div59">Mua ngay</b>
+              </div>
+              <div class="shopping-cart22">
+                <img
+                  class="shopping-cart-icon22"
+                  alt=""
+                  src="./public/shopping-cart.svg"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="sn-phm-parent2">
+          <div class="sn-phm63" id="snPhm">
+            <img
+              class="sn-phm-child26"
+              alt=""
+              src="./public/rectangle-4921@2x.png"
+            />
+
+            <div class="c-nh-xng21">Viết - Bút bi</div>
+            <div class="parent22">
+              <div class="div59">35.000</div>
+              <div class="div60">đ</div>
+            </div>
+            <div class="button-add-to-cart-parent19">
+              <div class="button-add-to-cart22">
+                <b class="div59">Mua ngay</b>
+              </div>
+              <div class="shopping-cart22">
+                <img
+                  class="shopping-cart-icon22"
+                  alt=""
+                  src="./public/shopping-cart.svg"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="sn-phm63" id="snPhm1">
+            <img
+              class="sn-phm-child26"
+              alt=""
+              src="./public/rectangle-4922@2x.png"
+            />
+
+            <div class="c-nh-xng21">Viết - Bút bi</div>
+            <div class="parent22">
+              <div class="div59">35.000</div>
+              <div class="div60">đ</div>
+            </div>
+            <div class="button-add-to-cart-parent19">
+              <div class="button-add-to-cart22">
+                <b class="div59">Mua ngay</b>
+              </div>
+              <div class="shopping-cart22">
+                <img
+                  class="shopping-cart-icon22"
+                  alt=""
+                  src="./public/shopping-cart.svg"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="sn-phm63" id="snPhm2">
+            <img
+              class="sn-phm-child26"
+              alt=""
+              src="./public/rectangle-4923@2x.png"
+            />
+
+            <div class="c-nh-xng21">Viết - Bút bi</div>
+            <div class="parent22">
+              <div class="div59">35.000</div>
+              <div class="div60">đ</div>
+            </div>
+            <div class="button-add-to-cart-parent19">
+              <div class="button-add-to-cart22">
+                <b class="div59">Mua ngay</b>
+              </div>
+              <div class="shopping-cart22">
+                <img
+                  class="shopping-cart-icon22"
+                  alt=""
+                  src="./public/shopping-cart.svg"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="sn-phm63" id="snPhm3">
+            <img
+              class="sn-phm-child26"
+              alt=""
+              src="./public/rectangle-4924@2x.png"
+            />
+
+            <div class="c-nh-xng21">Viết - Bút bi</div>
+            <div class="parent22">
+              <div class="div59">35.000</div>
+              <div class="div60">đ</div>
+            </div>
+            <div class="button-add-to-cart-parent19">
+              <div class="button-add-to-cart22">
+                <b class="div59">Mua ngay</b>
+              </div>
+              <div class="shopping-cart22">
+                <img
+                  class="shopping-cart-icon22"
+                  alt=""
+                  src="./public/shopping-cart.svg"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="sn-phm-parent2">
+          <div class="sn-phm63" id="snPhm">
+            <img
+              class="sn-phm-child26"
+              alt=""
+              src="./public/rectangle-4925@2x.png"
+            />
+
+            <div class="c-nh-xng21">Viết - Bút bi</div>
+            <div class="parent22">
+              <div class="div59">35.000</div>
+              <div class="div60">đ</div>
+            </div>
+            <div class="button-add-to-cart-parent19">
+              <div class="button-add-to-cart22">
+                <b class="div59">Mua ngay</b>
+              </div>
+              <div class="shopping-cart22">
+                <img
+                  class="shopping-cart-icon22"
+                  alt=""
+                  src="./public/shopping-cart.svg"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="sn-phm63" id="snPhm1">
+            <img
+              class="sn-phm-child26"
+              alt=""
+              src="./public/rectangle-4926@2x.png"
+            />
+
+            <div class="c-nh-xng21">Viết - Bút bi</div>
+            <div class="parent22">
+              <div class="div59">35.000</div>
+              <div class="div60">đ</div>
+            </div>
+            <div class="button-add-to-cart-parent19">
+              <div class="button-add-to-cart22">
+                <b class="div59">Mua ngay</b>
+              </div>
+              <div class="shopping-cart22">
+                <img
+                  class="shopping-cart-icon22"
+                  alt=""
+                  src="./public/shopping-cart.svg"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="sn-phm63" id="snPhm2">
+            <img
+              class="sn-phm-child26"
+              alt=""
+              src="./public/rectangle-4927@2x.png"
+            />
+
+            <div class="c-nh-xng21">Viết - Bút bi</div>
+            <div class="parent22">
+              <div class="div59">35.000</div>
+              <div class="div60">đ</div>
+            </div>
+            <div class="button-add-to-cart-parent19">
+              <div class="button-add-to-cart22">
+                <b class="div59">Mua ngay</b>
+              </div>
+              <div class="shopping-cart22">
+                <img
+                  class="shopping-cart-icon22"
+                  alt=""
+                  src="./public/shopping-cart.svg"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="sn-phm63" id="snPhm3">
+            <img
+              class="sn-phm-child26"
+              alt=""
+              src="./public/rectangle-4928@2x.png"
+            />
+
+            <div class="c-nh-xng21">Viết - Bút bi</div>
+            <div class="parent22">
+              <div class="div59">35.000</div>
+              <div class="div60">đ</div>
+            </div>
+            <div class="button-add-to-cart-parent19">
+              <div class="button-add-to-cart22">
+                <b class="div59">Mua ngay</b>
+              </div>
+              <div class="shopping-cart22">
+                <img
+                  class="shopping-cart-icon22"
+                  alt=""
+                  src="./public/shopping-cart.svg"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="sn-phm-parent2">
+          <div class="sn-phm63" id="snPhm">
+            <img
+              class="sn-phm-child26"
+              alt=""
+              src="./public/rectangle-4929@2x.png"
+            />
+
+            <div class="c-nh-xng21">Dụng cũ vẽ</div>
+            <div class="parent22">
+              <div class="div59">35.000</div>
+              <div class="div60">đ</div>
+            </div>
+            <div class="button-add-to-cart-parent19">
+              <div class="button-add-to-cart22">
+                <b class="div59">Mua ngay</b>
+              </div>
+              <div class="shopping-cart22">
+                <img
+                  class="shopping-cart-icon22"
+                  alt=""
+                  src="./public/shopping-cart.svg"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="sn-phm63" id="snPhm1">
+            <img
+              class="sn-phm-child26"
+              alt=""
+              src="./public/rectangle-4930@2x.png"
+            />
+
+            <div class="c-nh-xng21">Dụng cũ vẽ</div>
+            <div class="parent22">
+              <div class="div59">35.000</div>
+              <div class="div60">đ</div>
+            </div>
+            <div class="button-add-to-cart-parent19">
+              <div class="button-add-to-cart22">
+                <b class="div59">Mua ngay</b>
+              </div>
+              <div class="shopping-cart22">
+                <img
+                  class="shopping-cart-icon22"
+                  alt=""
+                  src="./public/shopping-cart.svg"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="sn-phm63" id="snPhm2">
+            <img
+              class="sn-phm-child26"
+              alt=""
+              src="./public/rectangle-4931@2x.png"
+            />
+
+            <div class="c-nh-xng21">Dụng cũ vẽ</div>
+            <div class="parent22">
+              <div class="div59">35.000</div>
+              <div class="div60">đ</div>
+            </div>
+            <div class="button-add-to-cart-parent19">
+              <div class="button-add-to-cart22">
+                <b class="div59">Mua ngay</b>
+              </div>
+              <div class="shopping-cart22">
+                <img
+                  class="shopping-cart-icon22"
+                  alt=""
+                  src="./public/shopping-cart.svg"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="sn-phm63" id="snPhm3">
+            <img
+              class="sn-phm-child26"
+              alt=""
+              src="./public/rectangle-4932@2x.png"
+            />
+
+            <div class="c-nh-xng21">Dụng cũ vẽ</div>
+            <div class="parent22">
+              <div class="div59">35.000</div>
+              <div class="div60">đ</div>
+            </div>
+            <div class="button-add-to-cart-parent19">
+              <div class="button-add-to-cart22">
+                <b class="div59">Mua ngay</b>
+              </div>
+              <div class="shopping-cart22">
+                <img
+                  class="shopping-cart-icon22"
+                  alt=""
+                  src="./public/shopping-cart.svg"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer6">
+        <div class="footer-child4"></div>
+        <div class="thng-tin12">
+          <div class="footer-child4"></div>
+          <img
+            class="thng-tin-child11"
+            alt=""
+            src="./public/rectangle-35@2x.png"
+          />
+
+          <div class="iu-khon-s6">Điều khoản sử dụng</div>
+          <div class="gii-thiu-v6">Giới thiệu về nhà sách</div>
+          <b class="thng-tin13">Thông tin</b>
+        </div>
+        <div class="h-tr-khch-hng6">
+          <div class="footer-child4"></div>
+          <div class="cc-cu-hi6">Các câu hỏi thường gặp</div>
+          <div class="chnh-sch-i7">Chính sách đổi / trả hàng</div>
+          <b class="h-tr-khch6">Hỗ trợ khách hàng</b>
+        </div>
+        <div class="lien-he6">
+          <div class="lin-h12">
+            <div class="footer-child4"></div>
+            <div class="emailhotrodinhvivietcom6">
+              Email:hotro@dinhviviet.com
+            </div>
+            <div class="hotline-1234567896">Hotline: 123456789</div>
+            <b class="thng-tin13">Liên hệ với chúng tôi</b>
+          </div>
+          <img class="iconlh6" alt="" src="./public/iconlh.svg" />
+        </div>
+      </div>
+    </div>
+
+    <script>
+
+      document.addEventListener("DOMContentLoaded", function() {
+      document.getElementById("trangChuBtn").addEventListener("click", function() {
+        window.location.href = "Home.html";
+          });
+      });
+      var sanPhmBnChy = document.getElementById("sanPhmBnChy");
+      if (sanPhmBnChy) {
+        sanPhmBnChy.addEventListener("click", function () {
+          var anchor = document.querySelector(
+            "[data-scroll-to='bestsellersContainer']"
+          );
+          if (anchor) {
+            anchor.scrollIntoView({ block: "start", behavior: "smooth" });
+          }
+        });
+      }
+      
+      var snPhmNiBt = document.getElementById("snPhmNiBt");
+      if (snPhmNiBt) {
+        snPhmNiBt.addEventListener("click", function () {
+          var anchor = document.querySelector("[data-scroll-to='snPhmTiuBiu']");
+          if (anchor) {
+            anchor.scrollIntoView({ block: "start", behavior: "smooth" });
+          }
+        });
+      }
+      
+      var snPhm = document.getElementById("snPhm");
+      if (snPhm) {
+        snPhm.addEventListener("click", function (e) {
+          window.location.href = "./Addressdetail.html";
+        });
+      }
+      
+      var snPhm1 = document.getElementById("snPhm1");
+      if (snPhm1) {
+        snPhm1.addEventListener("click", function (e) {
+          window.location.href = "./Addressdetail.html";
+        });
+      }
+      
+      var snPhm2 = document.getElementById("snPhm2");
+      if (snPhm2) {
+        snPhm2.addEventListener("click", function (e) {
+          window.location.href = "./Addressdetail.html";
+        });
+      }
+      
+      var snPhm3 = document.getElementById("snPhm3");
+      if (snPhm3) {
+        snPhm3.addEventListener("click", function (e) {
+          window.location.href = "./Addressdetail.html";
+        });
+      }
+
+      function myFunction() {
+        document.getElementById("myDropdown").classList.toggle("show");
+      }
+
+      window.onclick = function(event) {
+        if (!event.target.matches('.dropbtn')) {
+          var dropdowns = document.getElementsByClassName("dropdown-content");
+          var i;
+          for (i = 0; i < dropdowns.length; i++) {
+            var openDropdown = dropdowns[i];
+            if (openDropdown.classList.contains('show')) {
+              openDropdown.classList.remove('show');
+            }
+          }
+        }
+      }
+      </script>
+  </body>
+</html>

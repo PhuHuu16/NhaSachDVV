@@ -1,0 +1,319 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./css/global.css" />
+    <link rel="stylesheet" href="./css/home.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap"
+    />
+  </head>
+  <body>
+      <div class="home">
+        <div class="header">
+          <img class="header-child" alt="" src="./public/rectangle-1@2x.png" />
+          <div class="tm-kim">
+            <div class="thanh-tm-kim"></div>
+            <img class="vector-icon6" alt="" src="./public/vector.svg" />
+          </div>
+          <div class="thng-tin-ti-khon">
+            <div class="lin-h">
+              <div class="thng-tin-ti-khon2"></div>
+            </div>
+          </div>
+          <div class="menu">
+            <div class="menu-child"></div>
+            <div class="component-1">
+              <div class="trang-ch" id="trangChuBtn">
+                <div class="san-phm-bn-chy-child"></div>
+                <b class="sn-phm3">TRANG CHỦ</b>
+              </div>
+              <div class="san-phm-bn-chy" id="sanPhmBnChy">
+                <div class="san-phm-bn-chy-child"></div>
+                <b class="sn-phm">SẢN PHẨM BÁN CHẠY</b>
+              </div>
+              <div class="sn-phm-ni-bt" id="snPhmNiBt">
+                <div class="san-phm-bn-chy-child"></div>
+                <b class="sn-phm1">SẢN PHẨM NỔI BẬT</b>
+              </div>
+              <div class="dropdown">
+                <button onclick="myFunction()" class="dropbtn">Sản phẩm</button>
+                <div id="myDropdown" class="dropdown-content">
+                  <a href="./SachTiengViet.html">Sách tiếng việt</a>
+                  <a href="./SachTiengAnh.html">English Book</a>
+                  <a href="./PhuKien.html">Phụ Kiện</a>
+                  <a href="./DoChoi.html">Đồ Chơi</a>
+                </div>
+              </div>
+              <div class="lin-h1" id="lienHeBtn">
+                <div class="san-phm-bn-chy-child"></div>
+                <b class="sn-phm5">LIÊN HỆ</b>
+              </div>
+            </div>
+          </div>
+          <div class="component-3-wrapper">
+            <div class="component-3">
+              <img class="component-3-child" alt="" src="./public/rectangle-40.svg" />
+              <div class="ti-khon" id="loginBTN">
+                <b class="ti-khon-ca">Đăng nhập</b>
+                <img class="vector-icon8" alt="" src="./public/vector7.svg" />
+                <a href=""></a>
+              </div>
+            </div>
+          </div>
+          <div class="gi-hng-wrapper">
+            <div class="gi-hng">
+              <b class="gi-hng1">Giỏ hàng</b>
+              <img class="vector-icon9" alt="" src="./public/vector3.svg" />
+              <b class="b6">0</b>
+            </div>
+          </div>
+          <div class="nh-sch-dvv">Nhà sách DVV</div>
+        </div>
+        <div class="tham-khao">
+          <img class="tham-khao-child" alt="" src="./public/rectangle-15@2x.png" />
+          <img class="tham-khao-item" alt="" src="./public/rectangle-16@2x.png" />
+          <img class="tham-khao-inner" alt="" src="./public/rectangle-17@2x.png" />
+          <img class="rectangle-icon" alt="" src="./public/rectangle-18@2x.png" />
+          <img class="tham-khao-child1" alt="" src="./public/rectangle-19@2x.png" />
+        </div>
+        <div class="bestsellers" data-scroll-to="bestsellersContainer">
+          <b class="sn-phm-bn">SẢN PHẨM BÁN CHẠY</b>
+          <img class="bestsellers-child" alt="" src />
+          <div class="cart-product">
+            <img class="cart-product-child" alt="" src="./public/rectangle-41@2x.png" />
+            <div class="content">
+              <div class="thong-tin">
+                <b class="product-name">Sức mạnh của sự tử tế</b>
+                <div class="tien">
+                  <b class="b">100.000đ</b>
+                  <div class="div">120.000đ</div>
+                </div>
+              </div>
+              <div class="frame-icon">
+                <img class="vector-icon" alt="" src="./public/vector4.svg" />
+              </div>
+            </div>
+          </div>
+          <div class="cart-product1">
+            <img class="cart-product-child" alt="" src="./public/rectangle-411@2x.png" />
+            <div class="content">
+              <div class="thong-tin">
+                <b class="product-name">Giảm cân đẹp dáng suốt đời</b>
+                <div class="tien">
+                  <b class="b">70.000đ</b>
+                  <div class="div">130.000đ</div>
+                </div>
+              </div>
+              <div class="frame-icon">
+                <img class="vector-icon" alt="" src="./public/vector4.svg" />
+              </div>
+            </div>
+          </div>
+          <div class="cart-product2">
+            <img class="cart-product-child" alt="" src="./public/rectangle-412@2x.png" />
+            <div class="content">
+              <div class="thong-tin">
+                <b class="product-name">Xứ tuyết</b>
+                <div class="tien">
+                  <b class="b">120.000đ</b>
+                  <div class="div">140.000đ</div>
+                </div>
+              </div>
+              <div class="frame-icon">
+                <img class="vector-icon" alt="" src="./public/vector4.svg" />
+              </div>
+            </div>
+          </div>
+          <div class="cart-product3">
+            <img class="cart-product-child" alt="" src="./public/rectangle-413@2x.png" />
+            <div class="content">
+              <div class="thong-tin">
+                <b class="product-name">Người Tị Nạn</b>
+                <div class="tien">
+                  <b class="b">150.000đ</b>
+                  <div class="div">200.000đ</div>
+                </div>
+              </div>
+              <div class="frame-icon">
+                <img class="vector-icon" alt="" src="./public/vector4.svg" />
+              </div>
+            </div>
+          </div>
+          <div class="cart-product4">
+            <img class="cart-product-child" alt="" src="./public/rectangle-414@2x.png" />
+            <div class="content">
+              <div class="thong-tin">
+                <b class="product-name">Trở về không</b>
+                <div class="tien">
+                  <b class="b">90.000đ</b>
+                  <div class="div">120.000đ</div>
+                </div>
+              </div>
+              <div class="frame-icon">
+                <img class="vector-icon" alt="" src="./public/vector4.svg" />
+              </div>
+            </div>
+          </div>
+          <div class="cart-product5">
+            <img class="cart-product-child" alt="" src="./public/rectangle-415@2x.png" />
+            <div class="content">
+              <div class="thong-tin">
+                <b class="product-name">ATOMIC & HABITS</b>
+                <div class="tien">
+                  <b class="b">50.000đ</b>
+                  <div class="div">100.000đ</div>
+                </div>
+              </div>
+              <div class="frame-icon">
+                <img class="vector-icon" alt="" src="./public/vector4.svg" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="sn-phm-tiu-biu" data-scroll-to="snPhmTiuBiu">
+          <img class="sn-phm-tiu-biu-child" alt="" src />
+          <b class="sn-phm-ni">SẢN PHẨM NỔI BẬT</b>
+          <div class="sptb4">
+            <img class="sptb4-child" alt="" src="./public/rectangle-34@2x.png" />
+            <b class="nht-k-trong">Nhật ký trong tù</b>
+            <div class="chnh-trong-bi">
+              Chính trong bối cảnh này, tập thơ “Nhật ký trong tù” đã ra đời.
+              “Nhật ký trong tù” là một chặng đường dài và gian khổ mà Bác đã trải
+              qua trên con đường cứu nước của mình, những bài thơ thể hiện tính
+              nhân văn và tinh thần yêu nước sâu sắc nhất của Bác. Dưới đây là một
+              số bài thơ hay trong tập thơ “Nhật ký trong tù”.
+            </div>
+          </div>
+          <div class="sptb3">
+            <img class="sptb3-child" alt="" src="./public/rectangle-341@2x.png" />
+            <b class="ti-thy-hoa">Tôi thấy hoa vàng trên cỏ xanh</b>
+            <div class="tip-tc-l">
+              Tiếp tục là một cuốn sách hay đến từ tác giả Nguyễn Nhật Ánh, tác
+              phẩm “Tôi thấy hoa vàng trên cỏ xanh” ắt hẳn đã trở thành cái tên
+              quen thuộc với nhiều độc giả Việt. Vẫn là giọng văn bình dị, sâu
+              lắng và rất tình rất riêng của bác Ánh, “Tôi thấy hoa vàng trên cỏ
+              xanh” là truyện ngắn về những “mầm non” lớn lên từ một làng quê khốn
+              khó và lồng ghép những cảm xúc đặc biệt và trong sáng của tuổi mới
+              lớn.
+            </div>
+          </div>
+          <div class="sptb2">
+            <img class="sptb3-child" alt="" src="./public/rectangle-342@2x.png" />
+            <b class="c-nhn-tm">Đắc Nhân Tâm</b>
+            <div class="d-ra">
+              Dù đã ra đời cách đây gần một thế kỷ, nhưng sách “Đắc nhân tâm” (Tên
+              tiếng Anh: How to Win Friends & Influence People) vẫn gây được tiếng
+              vang lớn cho tới hiện tại. Theo The New York Times, suốt 10 năm
+              liền, “Đắc nhân tâm” là cuốn sách bán chạy hàng đầu với khoảng 58
+              bản dịch trên toàn cầu.
+            </div>
+          </div>
+          <div class="sptb1">
+            <img class="sptb3-child" alt="" src="./public/rectangle-343@2x.png" />
+            <b class="c-nhn-tm">Dế Mèn phiêu lưu ký. </b>
+            <div class="mng-sch-thiu">
+              Mảng sách thiếu nhi cũng làm rạng danh văn học Việt với nhiều tác
+              phẩm được chuyển ngữ vươn ra thế giới. Tiêu biểu nhất phải kể đến Dế
+              Mèn phiêu lưu ký của Tô Hoài
+            </div>
+          </div>
+        </div>
+        <div class="footer">
+          <div class="footer-child"></div>
+          <div class="thng-tin">
+            <div class="footer-child"></div>
+            <img class="thng-tin-item" alt="" src="./public/rectangle-35@2x.png" />
+            <div class="iu-khon-s">Điều khoản sử dụng</div>
+            <div class="gii-thiu-v">Giới thiệu về nhà sách</div>
+            <b class="lin-h-vi">Thông tin</b>
+          </div>
+          <div class="h-tr-khch-hng">
+            <div class="footer-child"></div>
+            <div class="cc-cu-hi">Các câu hỏi thường gặp</div>
+            <div class="chnh-sch-i">Chính sách đổi / trả hàng</div>
+            <b class="h-tr-khch">Hỗ trợ khách hàng</b>
+          </div>
+          <div class="lien-he">
+            <div class="lin-h">
+              <div class="footer-child"></div>
+              <div class="emailhotrodinhvivietcom">
+                Email:hotro@dinhviviet.com
+              </div>
+              <div class="hotline-123456789">Hotline: 123456789</div>
+              <b class="lin-h-vi">Liên hệ với chúng tôi</b>
+            </div>
+            <img class="iconlh" alt="" src="./public/iconlh.svg" />
+          </div>
+        </div>
+      </div>
+
+    <script>
+      
+      document.addEventListener("DOMContentLoaded", function() {
+      document.getElementById("trangChuBtn").addEventListener("click", function() {
+        window.location.href = "Home.html";
+          });
+      });
+
+      document.getElementById("loginBTN").addEventListener("click", function() {
+        window.location.href = "Login.html"; 
+      });
+        
+      var sanPhmBnChy = document.getElementById("sanPhmBnChy");
+      if (sanPhmBnChy) {
+        sanPhmBnChy.addEventListener("click", function () {
+          var anchor = document.querySelector(
+            "[data-scroll-to='bestsellersContainer']",
+          );
+          if (anchor) {
+            anchor.scrollIntoView({ block: "start", behavior: "smooth" });
+          }
+        });
+      }
+
+      var snPhmNiBt = document.getElementById("snPhmNiBt");
+      if (snPhmNiBt) {
+        snPhmNiBt.addEventListener("click", function () {
+          var anchor = document.querySelector("[data-scroll-to='snPhmTiuBiu']");
+          if (anchor) {
+            anchor.scrollIntoView({ block: "start", behavior: "smooth" });
+          }
+        });
+      }
+      var lienHeBtn = document.getElementById("lienHeBtn");
+      if (lienHeBtn) {
+        lienHeBtn.addEventListener("click", function () {
+          var footer = document.getElementById("footer");
+          if (footer) {
+            footer.scrollIntoView({ behavior: "smooth" });
+          }
+        });
+      }
+      
+      function myFunction() {
+        document.getElementById("myDropdown").classList.toggle("show");
+      }
+
+      window.onclick = function(event) {
+        if (!event.target.matches('.dropbtn')) {
+          var dropdowns = document.getElementsByClassName("dropdown-content");
+          var i;
+          for (i = 0; i < dropdowns.length; i++) {
+            var openDropdown = dropdowns[i];
+            if (openDropdown.classList.contains('show')) {
+              openDropdown.classList.remove('show');
+            }
+          }
+        }
+      }
+    </script>
+  </body>
+</html>

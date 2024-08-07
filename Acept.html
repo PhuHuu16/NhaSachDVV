@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./css/global.css" />
+    <link rel="stylesheet" href="./css/home-xac-nhan-thanh-ton.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;0,800;1,400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap"
+    />
+  </head>
+  <body>
+    <div class="home-xac-nhan-thanh-ton">
+      <div class="header2">
+        <img class="header-inner" alt="" src="./public/rectangle-1@2x.png" />
+        <div class="tm-kim2">
+          <div class="thanh-tm-kim2"></div>
+          <img class="vector-icon22" alt="" src="./public/vector1.svg" />
+        </div>
+        <div class="thng-tin-ti-khon6">
+          <div class="lin-h4">
+            <div class="thng-tin-ti-khon8"></div>
+          </div>
+        </div>
+        <div class="menu2">
+          <div class="menu-inner"></div>
+          <div class="component-12">
+            <div class="san-phm-bn-chy2" id="sanPhmBnChy">
+              <div class="san-phm-bn-chy-inner"></div>
+              <b class="sn-phm12">SẢN PHẨM BÁN CHẠY</b>
+              <img class="vector-icon23" alt="" src="./public/vector2.svg" />
+            </div>
+            <div class="sn-phm-ni-bt2" id="snPhmNiBt">
+              <div class="san-phm-bn-chy-inner"></div>
+              <b class="sn-phm13">SẢN PHẨM NỔI BẬT</b>
+              <img class="vector-icon23" alt="" src="./public/vector2.svg" />
+            </div>
+            <div class="dropdown">
+              <button onclick="myFunction()" class="dropbtn">Sản phẩm</button>
+              <div id="myDropdown" class="dropdown-content">
+                <a href="./SachTiengViet.html">Sách tiếng việt</a>
+                <a href="./SachTiengAnh.html">English Book</a>
+                <a href="./PhuKien.html">Phụ Kiện</a>
+                <a href="./DoChoi.html">Đồ Chơi</a>
+              </div>
+            </div>
+            <div class="trang-ch2" id="trangChuBtn">
+              <div class="san-phm-bn-chy-inner"></div>
+              <b class="sn-phm15">TRANG CHỦ</b>
+              <img class="vector-icon23" alt="" src="./public/vector2.svg" />
+            </div>
+            <div class="lin-h5">
+              <div class="san-phm-bn-chy-inner"></div>
+              <b class="sn-phm17">LIÊN HỆ</b>
+              <img class="vector-icon23" alt="" src="./public/vector2.svg" />
+            </div>
+          </div>
+        </div>
+        <div class="component-3-frame">
+          <div class="component-32">
+            <img class="component-3-inner" alt="" src="./public/rectangle-40.svg" />
+            <div class="ti-khon2">
+              <b class="ti-khon-ca2">Đăng nhập</b>
+              <img class="vector-icon28" alt="" src="./public/vector3.svg" />
+            </div>
+          </div>
+        </div>
+        <div class="gi-hng-frame">
+          <div class="gi-hng5">
+            <b class="gi-hng6">Giỏ hàng</b>
+            <img class="vector-icon29" alt="" src="./public/vector4.svg" />
+            <b class="b16">0</b>
+          </div>
+        </div>
+        <div class="nh-sch-dvv2">Nhà sách DVV</div>
+      </div>
+  
+      <b class="cm-n-khch">Cảm ơn khách hàng đã ủng hộ !</b>
+      <img class="thumb-up-icon" alt="" src="./public/thumb-up.svg" />
+  
+      <div class="footer2">
+        <div class="footer-inner"></div>
+        <div class="thng-tin4">
+          <div class="footer-inner"></div>
+          <img class="thng-tin-child3" alt="" src="./public/rectangle-35@2x.png" />
+          <div class="iu-khon-s2">Điều khoản sử dụng</div>
+          <div class="gii-thiu-v2">Giới thiệu về nhà sách</div>
+          <b class="thng-tin5">Thông tin</b>
+        </div>
+        <div class="h-tr-khch-hng2">
+          <div class="footer-inner"></div>
+          <div class="cc-cu-hi2">Các câu hỏi thường gặp</div>
+          <div class="chnh-sch-i2">Chính sách đổi / trả hàng</div>
+          <b class="h-tr-khch2">Hỗ trợ khách hàng</b>
+        </div>
+        <div class="lien-he2">
+          <div class="lin-h4">
+            <div class="footer-inner"></div>
+            <div class="emailhotrodinhvivietcom2">Email:hotro@dinhviviet.com</div>
+            <div class="hotline-1234567892">Hotline: 123456789</div>
+            <b class="thng-tin5">Liên hệ với chúng tôi</b>
+          </div>
+          <img class="iconlh2" alt="" src="./public/iconlh.svg" />
+        </div>
+      </div>
+    </div>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function() {
+      document.getElementById("trangChuBtn").addEventListener("click", function() {
+        window.location.href = "Home.html"; 
+        });
+      });
+
+      var sanPhmBnChy = document.getElementById("sanPhmBnChy");
+      if (sanPhmBnChy) {
+        sanPhmBnChy.addEventListener("click", function () {
+          var anchor = document.querySelector(
+            "[data-scroll-to='bestsellersContainer']"
+          );
+          if (anchor) {
+            anchor.scrollIntoView({ block: "start", behavior: "smooth" });
+          }
+        });
+      }
+      
+      var snPhmNiBt = document.getElementById("snPhmNiBt");
+      if (snPhmNiBt) {
+        snPhmNiBt.addEventListener("click", function () {
+          var anchor = document.querySelector("[data-scroll-to='snPhmTiuBiu']");
+          if (anchor) {
+            anchor.scrollIntoView({ block: "start", behavior: "smooth" });
+          }
+        });
+      }
+
+      function myFunction() {
+        document.getElementById("myDropdown").classList.toggle("show");
+      }
+
+      window.onclick = function(event) {
+        if (!event.target.matches('.dropbtn')) {
+          var dropdowns = document.getElementsByClassName("dropdown-content");
+          var i;
+          for (i = 0; i < dropdowns.length; i++) {
+            var openDropdown = dropdowns[i];
+            if (openDropdown.classList.contains('show')) {
+              openDropdown.classList.remove('show');
+            }
+          }
+        }
+      }
+      </script>
+  </body>
+</html>
